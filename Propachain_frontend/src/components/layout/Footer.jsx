@@ -11,7 +11,7 @@ export const Footer = () => {
               <span className="text-xl font-bold text-white">PropATradeX</span>
             </div>
             <p className="text-sm text-slate-400 mb-4">
-              The future of real estate trading on the IOTA blockchain. Zero fees, instant settlement.
+              The future of real estate trading on the Movement blockchain. Zero fees, instant settlement.
             </p>
           </div>
           
@@ -44,7 +44,7 @@ export const Footer = () => {
         </div>
         
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()} PropATradeX. All rights reserved. Built on IOTA.
+          © {new Date().getFullYear()} PropATradeX. All rights reserved. Built on MOVE.
         </div>
       </div>
     </footer>

@@ -64,7 +64,7 @@ export default function LandingPage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
             </span>
-            Live on IOTA Mainnet
+            Live on Movement Mainnet
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-8">
@@ -74,7 +74,7 @@ export default function LandingPage() {
           
           <p className="max-w-2xl mx-auto text-xl text-slate-400 mb-12">
             Buy, rent, and trade properties with zero fees. 
-            Powered by IOTA blockchain for instant solidity and security.
+            Powered by Movement blockchain for instant solidity and security.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -116,7 +116,7 @@ export default function LandingPage() {
                 <Zap size={32} />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Instant Transactions</h3>
-              <p className="text-slate-500">Zero-fee transactions finalized in seconds using the IOTA Tangle.</p>
+              <p className="text-slate-500">Zero-fee transactions finalized in seconds using the MOVE Tangle.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 mx-auto bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-600 mb-6">

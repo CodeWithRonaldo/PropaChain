@@ -82,7 +82,7 @@ export default function Marketplace() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Marketplace</h1>
-          <p className="text-slate-500">Discover and trade real estate on IOTA.</p>
+          <p className="text-slate-500">Discover and trade real estate on MOVE.</p>
         </div>
         <div className="flex gap-2">
            <div className="bg-slate-100 p-1 rounded-lg flex">

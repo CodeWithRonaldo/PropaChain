@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
-import { Home, Building2, Wallet, History, Menu, X, LogOut, User } from 'lucide-react';
+import { Home, Building2, Wallet, History, Menu, X, LogOut, User, UploadCloud } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -92,8 +92,8 @@ export default function DashboardLayout() {
         <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
           <SidebarLink to="/app" icon={Home}>Dashboard</SidebarLink>
           <SidebarLink to="/app/marketplace" icon={Building2}>Marketplace</SidebarLink>
-          <SidebarLink to="/app/wallet" icon={Wallet}>My Wallet</SidebarLink>
-          <SidebarLink to="/app/history" icon={History}>History</SidebarLink>
+          <SidebarLink to="/app/upload" icon={UploadCloud}>List Property</SidebarLink>
+          <SidebarLink to="/app/profile" icon={User}>Profile</SidebarLink>
         </nav>
 
         <div className="p-4 border-t border-slate-100">

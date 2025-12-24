@@ -45,7 +45,7 @@ export const PropertyCard = ({ property }) => {
           </div>
           <div className="text-right">
             <p className="text-lg font-bold text-primary">${price.toLocaleString()}</p>
-            <p className="text-xs text-slate-500">IOTA</p>
+            <p className="text-xs text-slate-500">MOVE</p>
           </div>
         </div>
 

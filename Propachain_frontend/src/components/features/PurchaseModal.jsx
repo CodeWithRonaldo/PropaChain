@@ -89,7 +89,7 @@ export const PurchaseModal = ({ isOpen, onClose, property }) => {
                   <div>
                     <h3 className="font-bold text-slate-900">{property.title}</h3>
                     <p className="text-sm text-slate-500">{property.location}</p>
-                    <p className="text-primary font-bold mt-1">${property.price.toLocaleString()} IOTA</p>
+                    <p className="text-primary font-bold mt-1">${property.price.toLocaleString()} MOVE</p>
                   </div>
                 </div>
 
@@ -103,7 +103,7 @@ export const PurchaseModal = ({ isOpen, onClose, property }) => {
                     <span className="text-emerald-500">FREE</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Network Fee (IOTA)</span>
+                    <span>Network Fee (MOVE)</span>
                     <span>~ $0.00</span>
                   </div>
                   <div className="pt-2 border-t border-slate-100 flex justify-between font-bold text-slate-900 text-base">
@@ -157,7 +157,7 @@ export const PurchaseModal = ({ isOpen, onClose, property }) => {
               >
                  <Loader2 size={48} className="animate-spin text-primary mx-auto mb-4" />
                  <h3 className="text-lg font-bold text-slate-900">Processing Transaction</h3>
-                 <p className="text-slate-500 text-sm">Validating on IOTA Tangle...</p>
+                 <p className="text-slate-500 text-sm">Validating on Movement Network...</p>
               </motion.div>
             )}
 

@@ -132,7 +132,7 @@ export default function PropertyDetails() {
               <p className="text-sm text-slate-500 mb-1">Buy Price</p>
               <div className="flex items-end gap-2">
                 <span className="text-3xl font-bold text-primary">${property.price.toLocaleString()}</span>
-                <span className="text-sm font-medium text-slate-400 mb-1">IOTA</span>
+                <span className="text-sm font-medium text-slate-400 mb-1">MOVE</span>
               </div>
             </div>
 
